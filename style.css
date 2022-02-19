@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "Simplipixa";
+  src: url("Simplipixa.otf");
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-color: #efefef;
+  background-size: 15px 15px;
+  background-image: radial-gradient(circle, #9F92E8 .7px, rgba(0, 0, 0, 0) .1px);
+  font-family: "Simplipixa", sans-serif;
+  color: #df99bc;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.2rem;
+}
+h3 {
+  font-size: 1.2rem;
+}
+label {
+  margin: 10px 0 0;
+}
+.square {
+  background-color: #00B7FF;
+  margin: 1px;
+  width: 15px;
+  height: 15px;
+  float: left;
+}
+.form-group {
+  background-color: aquamarine;
+  padding: 15px;
+}
+select {
+  background: #ffc000 !important;
+  color: #ff0000 !important;
+}
+option {
+  background: #ffc000;
+  color: #ff0000;
+}
+.player-1 {
+  padding: 15px 15px 0 15px;
+  background-color: #86E1FF;
+}
+.player-2 {
+  padding: 15px 15px 0 15px;
+  background-color: #5EFF7F;
+}
+.power-table-1 .square {
+  float: left;
+}
+.power-table-2 .square {
+  float: right;
+}
+.power {
+  width: 68px;
+  height: 33px;
+  margin: 0 0 7.4px 0;
+  background-color: #C9A1FF;
+}
+.hero-wrapper {
+  background-color: #1E8FEB;
+  margin: 0 15px 15px;
+}
+.hero {
+    width: 34px;
+  height: 67px;
+    margin: 0;
+}
+.hero-hitbox {
+  margin: 0;
+}
+.hitbox {
+  width: 67px;
+  height: 32px;
+  margin: 0 0 1px 0;
+  background-color: #ADB7FF;
+}
+.ofuscate {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.shine {
+  -webkit-filter: grayscale(0) !important; /* Safari 6.0 - 9.0 */
+  filter: grayscale(0) !important;
+  cursor: pointer;
+}
+.used, .used .square {
+  background-color: transparent;
+  box-shadow: 2px 2px #000;
+  pointer-events: none !important;
+}
+.focused {
+  box-shadow: 2px 2px #000;
+}
+.pointer-events-none {
+  pointer-events: none;
+}
+.pointer-events-auto {
+  pointer-events: auto  !important;
+}
+.pointer-events-none-forever {
+  pointer-events: none !important; /*discarded powers*/
+}
+.begin-game, .pass-turn, .end-turn, .attack {
+  position: fixed;
+  bottom: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  padding: 15px;
+  background-color: aquamarine;
+}
+.end-turn {
+  bottom: 0;
+}
