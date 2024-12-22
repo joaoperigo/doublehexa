@@ -12,7 +12,7 @@ The other player may defend, with a rectangle with the same number or higher of 
 
 ![Sketch of this game](https://github.com/joaoperigo/doublehexa/blob/master/_ASSETS/doublehexa.png)
 
-## project progress
+## Project progress
 
 I'm working in a Java version, with:
 * Login and user registration
